@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_weight="13"
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:layout_margin="3dp"
+            android:background="@color/main"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/scan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:text="@string/scan"
+            android:textColor="@color/white"
+            android:background="@color/main"/>
+    </LinearLayout>
+
+</LinearLayout>

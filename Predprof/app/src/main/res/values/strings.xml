@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Predprof</string>
+    <string name="name">Название:</string>
+    <string name="add">ДОБАВИТЬ</string>
+    <string name="change">ИЗМЕНИТЬ</string>
+    <string name="delete">УДАЛИТЬ</string>
+    <string name="scan">СКАНИРОВАТЬ</string>
+</resources>
